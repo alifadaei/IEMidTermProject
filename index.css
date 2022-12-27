@@ -1,0 +1,136 @@
+/* global css reset */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+input,
+section {
+  border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* the main class is used to contain the user form and data sections */
+.main {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  background-image: url("./img/github-back.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* the container for user data bio and ... */
+.user-data {
+  width: 50rem;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 20rem;
+}
+
+/* the container for user input bio and ... */
+.user-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 20rem;
+  width: 20rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* style for the form element */
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* style for the input element */
+.input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* the form btn styles */
+.btn {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: bold;
+  width: 100%;
+}
+
+/* the person info and photo section */
+.img {
+  border-radius: 10px;
+  max-width: 150px;
+}
+
+/* the top info styles for picture and other data */
+.top-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+/* a key value pair box like email and its value */
+.top-info-item {
+  color: white;
+  padding: 9px;
+  margin: 7px 0;
+  background-color: rgba(53, 53, 53, 0.9);
+}
+
+/* for container for the info item elems */
+.top-info-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* the bio text */
+.bio-text {
+  padding: 50px;
+  padding-top: 20px;
+}
+
+/* alert classes */
+.alert {
+  background-color: rgb(236, 104, 104);
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+
+/* makes its accepting elems hidden */
+.alert_hidden {
+  display: none;
+}
+
+/* the localstorage or cookie toggler */
+.toggler {
+  margin-bottom: 10px;
+}
+
+/* the toggler btn */
+.toggle-btn {
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 4px 10px;
+}
